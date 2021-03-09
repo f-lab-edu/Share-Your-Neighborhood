@@ -1,13 +1,14 @@
-package share.yours;
+package com.syn;
 
+import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class   ShareYoursApplication {
+public class SYNApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ShareYoursApplication.class, args);
+        SpringApplication.run(SYNApplication.class, args);
     }
 
 }
